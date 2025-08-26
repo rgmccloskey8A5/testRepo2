@@ -1,15 +1,6 @@
 public class TaylorSwiftGame
 {	
-	public static void main(String[] args)
-	{
-	    /*
-		 * Hannah is: red
-		 * Colbie is: speak now
-		 * Nilaya is: reputation
-		 * Rebecca is: 1989
-		 */
-
-       private static void speakNow()
+	private static void speakNow()
        {
          System.out.println("You chose Speak Now.");
 	      if(((int) (Math.random() * 3) + 1) == 1)
@@ -30,7 +21,7 @@ public class TaylorSwiftGame
 			      else
 			      {
 				      System.out.println("Drop everything now, meet me");
-				      if(s.nextLine().equals("Sparks Fly"))
+				      if(scan.nextLine().equals("Sparks Fly"))
 				      {
 					      System.out.println("Congrats! You win!"); 
 				      }
@@ -43,6 +34,17 @@ public class TaylorSwiftGame
 	      }
 
        }
+     
+   public static void main(String[] args)
+	{
+	    /*
+		 * Hannah is: red
+		 * Colbie is: speak now
+		 * Nilaya is: reputation
+		 * Rebecca is: 1989
+		 */
+
+       
 		//System.out.println("ABC"); 
 	}
 }
