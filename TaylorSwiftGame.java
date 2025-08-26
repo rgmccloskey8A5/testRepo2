@@ -1,9 +1,13 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
-public class TaylorSwiftGame {
-   public TaylorSwiftGame() {
-   }
-
-   public static void main(String[] var0) {
-      System.out.println("ABC");
-   }
+public class TaylorSwiftGame
+{	
+	public static void main(String[] args)
+	{
+	    /*
+		 * Hannah is: red
+		 * Colbie is: speak now
+		 * Nilaya is: reputation
+		 * Rebecca is: 1989
+		 */
+		System.out.println("ABC"); 
+	}
 }
