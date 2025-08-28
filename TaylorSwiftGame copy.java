@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class TaylorSwiftGame
-{	
+{
+     
 	public static void main(String[] args)
 	{
 		Scanner scan = new Scanner(System.in);
@@ -15,7 +16,7 @@ public class TaylorSwiftGame
 		}
 		if(scan.equals("Speak Now"))
 		{
-
+			//speakNow();
 		}
 		if(scan.equals("Red"))
 		{
