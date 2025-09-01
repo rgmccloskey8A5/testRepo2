@@ -2,21 +2,14 @@ import java.io.*;
 import java.util.*;
 
 public class yearBranch
-
 {
-    System.out.println("You chose 1989. Here are your song lyrics: ");
-
-    int genNum = (1 + (int)(Math.random()* ((3-1) + 1)));
-    if(genNum == 1)
+    public void nineteeneightnine()
     {
-<<<<<<< Updated upstream
-        System.out.println();
-=======
-        Scanner scan = new Scanner(System.in);
-        System.out.println("You chose 1989. Here are your song lyrics: ");
-
-        //Blank Space song
         int genNum = (1 + (int)(Math.random()* ((3-1) + 1)));
+        Scanner scan = new Scanner(System.in);
+        System.out.println("You chose 1989. Your lyrics will appear below. Only enter answers in capital letters of the first word.");
+
+            //Blank Space song\
         if(genNum == 1)
         {
             System.out.println("Your first lyrics are:");
@@ -50,7 +43,7 @@ public class yearBranch
         }
 
         //This Love song
-        else if(genNum == 2)
+        if(genNum == 2)
         {
             System.out.println("Your first lyrics are:");
             System.out.println("These hands had");
@@ -66,7 +59,8 @@ public class yearBranch
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
-                else{
+                else
+                {
                     System.out.println("Your next lyrics are:");
                     System.out.println("These hands had to let it go free");
                     if(scan.nextLine().equals("This Love"))
@@ -82,7 +76,7 @@ public class yearBranch
         }
 
         //Now That We Don't Talk song
-        else if(genNum == 3)
+        if(genNum == 3)
         {
             System.out.println("Your first lyrics are:");
             System.out.println("You grew your hair");
@@ -113,6 +107,5 @@ public class yearBranch
                 }
             }
         }
->>>>>>> Stashed changes
     }
 }
