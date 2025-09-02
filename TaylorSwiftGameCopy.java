@@ -11,7 +11,12 @@ public class TaylorSwiftGameCopy
 		}
 		if(scan.equals("reputation"))
 		{
+<<<<<<< HEAD
 				
+=======
+			reputation testPrinter = new reputation();
+        	testPrinter.reputation();
+>>>>>>> main
 		}
 		if(scan.equals("Speak Now"))
 		{
@@ -22,7 +27,10 @@ public class TaylorSwiftGameCopy
 
 		}
 
+<<<<<<< HEAD
 	    System.out.println("ABC"); 
 	    System.out.println("hi!");
+=======
+>>>>>>> main
 	}
 }
