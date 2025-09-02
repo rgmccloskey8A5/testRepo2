@@ -12,7 +12,7 @@ public class TaylorSwiftGameCopy
 		if(scan.equals("reputation"))
 		{
 			reputation testPrinter = new reputation();
-        	testPrinter.reputation();
+        	testPrinter.reputationTester();
 		}
 		if(scan.equals("Speak Now"))
 		{

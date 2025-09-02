@@ -151,9 +151,5 @@ public class reputation
     }
 
     
-    public static void main(String[] args)
-	{
-	    
-		reputationTester();
-	}
+   
 }
