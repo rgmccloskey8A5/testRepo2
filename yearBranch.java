@@ -7,7 +7,7 @@ public class yearBranch
     {
         int genNum = (1 + (int)(Math.random()* ((3-1) + 1)));
         Scanner scan = new Scanner(System.in);
-        System.out.println("You chose 1989. Your lyrics will appear below. Only enter answers in capital letters of the first word.");
+        System.out.println("You chose 1989. Your lyrics will appear below. Please capitalize the first letter of every word.");
 
             //Blank Space song\
         if(genNum == 1)
