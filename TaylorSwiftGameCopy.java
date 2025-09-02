@@ -5,20 +5,21 @@ public class TaylorSwiftGameCopy
 	{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Choose an album from 1989, reputation, Speak Now, or Red");
-		if(scan.equals("1989"))
+		String userInput = scan.nextLine();
+		if(userInput.equals("1989"))
 		{
 
 		}
-		if(scan.equals("reputation"))
+		else if(userInput.equals("reputation"))
 		{
 			reputation testPrinter = new reputation();
         	testPrinter.reputationTester();
 		}
-		if(scan.equals("Speak Now"))
+		else if(userInput.equals("Speak Now"))
 		{
 
 		}
-		if(scan.equals("Red"))
+		else if(userInput.equals("Red"))
 		{
 
 		}

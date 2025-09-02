@@ -1,14 +1,16 @@
 import java.util.Scanner;
+import java.util.*;
 public class reputation
 {	
 	public void reputationTester() 
     {
         
-        Scanner scan = new Scanner(System.in);
+        
         System.out.println("You chose reputation");
-        int random = 3; 
+        Scanner scan = new Scanner(System.in);
+        
 
-        //int random = (int)(Math.random() * 3 + 1);
+        int random = (int)(Math.random() * 3 + 1);
         if (random == 1) 
         {
             // getaway car
