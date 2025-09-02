@@ -23,7 +23,5 @@ public class TaylorSwiftGameCopy
 
 		}
 
-	    System.out.println("ABC"); 
-	    System.out.println("hi!");
 	}
 }
