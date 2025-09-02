@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class reputation
 {	
-	private static void reputationTester() 
+	public void reputationTester() 
     {
         
         Scanner scan = new Scanner(System.in);
