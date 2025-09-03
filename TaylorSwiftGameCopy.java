@@ -33,7 +33,8 @@ public class TaylorSwiftGameCopy
 			}
 			else if(userInput.equals("Speak Now"))
 			{
-
+				SpeakNow testNow = new SpeakNow();
+				testNow.speakNow();
 			}
 			else if(userInput.equals("Red"))
 			{
