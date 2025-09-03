@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TaylorSwiftGameCopy",
+            "request": "launch",
+            "mainClass": "TaylorSwiftGameCopy",
+            "projectName": "testRepo2_5c07b582"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
