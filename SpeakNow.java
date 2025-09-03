@@ -1,12 +1,13 @@
+//import java.io*;
 import java.util.*;
 public class SpeakNow
 {	
-	private static void speakNow()
+	public void speakNow()
        {
-         Scanner scan = new Scanner(System.in);
          System.out.println("You chose Speak Now.");
-            int rand = (int) ((Math.random() * 3) + 1);
-            System.out.println("your rand int is " + rand);
+		 Scanner scan = new Scanner(System.in);
+         int rand = (int) ((Math.random() * 3) + 1);
+         System.out.println("your rand int is " + rand);
          if(rand == 1)
 	      {
                 
@@ -103,8 +104,5 @@ public class SpeakNow
 
        }
      
-   public static void main(String[] args)
-	{
-        speakNow();
-    }
+
 }
