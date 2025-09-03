@@ -1,108 +1,108 @@
 import java.io.*;
 import java.util.*;
 
-public class yearBranch
+public class red
 {
-    public void nineteeneightnine()
+    public void redPrinterAlbum()
     {
         int genNum = (1 + (int)(Math.random()* ((3-1) + 1)));
         Scanner scan = new Scanner(System.in);
-        System.out.println("You chose 1989. Your lyrics will appear below. Enter every song with ALL capital letters.");
+        System.out.println("You chose Red. Your lyrics will appear below. Please capitalize the first letter of every word.");
 
-        //Blank Space song\
+            //22 song
         if(genNum == 1)
         {
             System.out.println("Your first lyrics are:");
-            System.out.println("Boys only want");
-            if(scan.nextLine().equals("BLANK SPACE"))
+            System.out.println("It feels like a perfect");
+            if(scan.nextLine().equals("22"))
             {
                 System.out.println("Congrats! You guessed the song"); 
             } 
             else
             {
                 System.out.println("Your next lyrics are:");
-                System.out.println("Boys only want love if");
-                if(scan.nextLine().equals("BLANK SPACE"))
+                System.out.println("It feels like a perfect night to dress up");
+                if(scan.nextLine().equals("22"))
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
                 else
                 {
                     System.out.println("Your next lyrics are:");
-                    System.out.println("Boys only want love if it's torture");
-                    if(scan.nextLine().equals("BLANK SPACE"))
+                    System.out.println("It feels like a perfect night to dress up like hipsters");
+                    if(scan.nextLine().equals("22"))
                     {
                         System.out.println("Congrats! You guessed the song"); 
                     }
                     else
                     {     
-                        System.out.println("Sorry, you did not guess the song. The song is Blank Space!");
+                        System.out.println("Sorry, you did not guess the song. The song is 22!");
                     }
                 }
             }
         }
 
-        //This Love song
+        //All Too Well song
         if(genNum == 2)
         {
             System.out.println("Your first lyrics are:");
-            System.out.println("These hands had");
-            if(scan.nextLine().equals("THIS LOVE"))
+            System.out.println("Oh your sweet disposition");
+            if(scan.nextLine().equals("ALL TOO WELL"))
             {
                 System.out.println("Congrats! You guessed the song"); 
             }
             else
             {
                 System.out.println("Your next lyrics are:");
-                System.out.println("These hands had to let");
-                if(scan.nextLine().equals("THIS LOVE"))
+                System.out.println("Oh your sweet disposition and my wide eyed gaze");
+                if(scan.nextLine().equals("ALL TOO WELL"))
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
                 else
                 {
                     System.out.println("Your next lyrics are:");
-                    System.out.println("These hands had to let it go free");
-                    if(scan.nextLine().equals("THIS LOVE"))
+                    System.out.println("Oh your sweet disposition and my wide eyed gaze, we're singin' in the car");
+                    if(scan.nextLine().equals("ALL TOO WELL"))
                     {
                         System.out.println("Congrats! You guessed the song"); 
                     }
                     else
                     {
-                        System.out.println("Sorry, you did not guess the song. The song is This Love!");
+                        System.out.println("Sorry, you did not guess the song. The song is All Too Well!");
                     }
                 }
             }
         }
 
-        //Now That We Don't Talk song
+        //I Knew You Were Trouble song
         if(genNum == 3)
         {
             System.out.println("Your first lyrics are:");
-            System.out.println("You grew your hair");
-            if(scan.nextLine().equals("NOW THAT WE DON'T TALK"))
+            System.out.println("No apologies, he'll never");
+            if(scan.nextLine().equals("I KNEW YOU WERE TROUBLE"))
             {
                 System.out.println("Congrats! You guessed the song"); 
             }
             else
             {
                 System.out.println("Your next lyrics are:");
-                System.out.println("You grew your hair long, you got new");
-                if(scan.nextLine().equals("NOW THAT WE DON'T TALK"))
+                System.out.println("No apologies, he'll never see you cry");
+                if(scan.nextLine().equals("I KNEW YOU WERE TROUBLE"))
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
                 else
                 {
                     System.out.println("Your next lyrics are:");
-                    System.out.println("You grew your hair long, you got new icons, and from the outside");
-                    if(scan.nextLine().equals("NOW THAT WE DON'T TALK"))
+                    System.out.println("No apologies, he'll never see you cry pretend he doesn't know");
+                    if(scan.nextLine().equals("I KNEW YOU WERE TROUBLE"))
                     {
                         System.out.println("Congrats! You guessed the song"); 
                     }
                     else
                     {
-                        System.out.println("Sorry, you did not guess the song. The song is Now That We Don't Talk!");
+                        System.out.println("Sorry, you did not guess the song. The song is I Knew You Were Trouble!");
                     }
                 }
             }

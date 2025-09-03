@@ -104,10 +104,10 @@ public class reputation
          if (random == 3) 
         {
             // getaway car
-            String getawaycar = "King of My Heart";
+            String getawaycar = "King Of My Heart";
             System.out.println("And all at once");
             
-            if (scan.nextLine().equals("King of My Heart"))
+            if (scan.nextLine().equals("King Of My Heart"))
             {
                 System.out.println("Congrats! You win!");
             } 
@@ -116,15 +116,16 @@ public class reputation
                 
                 System.out.println("And all at once your");
 
-                if (scan.nextLine().equals("King of My Heart")) 
+                if (scan.nextLine().equals("King Of My Heart")) 
                 {
-                    System.out.println("Congrats! You win!");
+                      
+                    System.out.println("Congrats you win!")
                 } 
                 else 
                 {
                     
                     System.out.println("now your lyrics are : And all at once your all");
-                    if (scan.nextLine().equals("King of My Heart")) 
+                    if (scan.nextLine().equals("King Of My Heart")) 
                     {
                         System.out.println("Congrats! You win!");
                     } 
@@ -132,7 +133,7 @@ public class reputation
                     {
                         
                         System.out.println("now your lyrics are : And all at once your all I'm");
-                        if (scan.nextLine().equals("King of My Heart")) 
+                        if (scan.nextLine().equals("King Of My Heart")) 
                         {
                             System.out.println("Congrats! You win!");
                         } 
