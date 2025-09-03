@@ -40,7 +40,7 @@ public class TaylorSwiftGameCopy
 				red testRed = new red(); 
 				testRed.redPrinterAlbum(); 
 			}
-			System.out.println("If you type 'quit', you will stop playing, if not, you will play again.");
+			System.out.println("If you type 'quit', you will stop playing, if not, press enter and you will play again.");
 			userInput = scan.nextLine();
 			if (userInput.equals("quit"))
 			{
