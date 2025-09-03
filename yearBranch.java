@@ -7,14 +7,14 @@ public class yearBranch
     {
         int genNum = (1 + (int)(Math.random()* ((3-1) + 1)));
         Scanner scan = new Scanner(System.in);
-        System.out.println("You chose 1989. Your lyrics will appear below. Please capitalize the first letter of every word.");
+        System.out.println("You chose 1989. Your lyrics will appear below. Enter every song with ALL capital letters.");
 
         //Blank Space song\
         if(genNum == 1)
         {
             System.out.println("Your first lyrics are:");
             System.out.println("Boys only want");
-            if(scan.nextLine().equals("Blank Space"))
+            if(scan.nextLine().equals("BLANK SPACE"))
             {
                 System.out.println("Congrats! You guessed the song"); 
             } 
@@ -22,7 +22,7 @@ public class yearBranch
             {
                 System.out.println("Your next lyrics are:");
                 System.out.println("Boys only want love if");
-                if(scan.nextLine().equals("Blank Space"))
+                if(scan.nextLine().equals("BLANK SPACE"))
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
@@ -30,7 +30,7 @@ public class yearBranch
                 {
                     System.out.println("Your next lyrics are:");
                     System.out.println("Boys only want love if it's torture");
-                    if(scan.nextLine().equals("Blank Space"))
+                    if(scan.nextLine().equals("BLANK SPACE"))
                     {
                         System.out.println("Congrats! You guessed the song"); 
                     }
@@ -47,7 +47,7 @@ public class yearBranch
         {
             System.out.println("Your first lyrics are:");
             System.out.println("These hands had");
-            if(scan.nextLine().equals("This Love"))
+            if(scan.nextLine().equals("THIS LOVE"))
             {
                 System.out.println("Congrats! You guessed the song"); 
             }
@@ -55,7 +55,7 @@ public class yearBranch
             {
                 System.out.println("Your next lyrics are:");
                 System.out.println("These hands had to let");
-                if(scan.nextLine().equals("This Love"))
+                if(scan.nextLine().equals("THIS LOVE"))
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
@@ -63,7 +63,7 @@ public class yearBranch
                 {
                     System.out.println("Your next lyrics are:");
                     System.out.println("These hands had to let it go free");
-                    if(scan.nextLine().equals("This Love"))
+                    if(scan.nextLine().equals("THIS LOVE"))
                     {
                         System.out.println("Congrats! You guessed the song"); 
                     }
@@ -80,7 +80,7 @@ public class yearBranch
         {
             System.out.println("Your first lyrics are:");
             System.out.println("You grew your hair");
-            if(scan.nextLine().equals("Now That We Don't Talk"))
+            if(scan.nextLine().equals("NOW THAT WE DON'T TALK"))
             {
                 System.out.println("Congrats! You guessed the song"); 
             }
@@ -88,7 +88,7 @@ public class yearBranch
             {
                 System.out.println("Your next lyrics are:");
                 System.out.println("You grew your hair long, you got new");
-                if(scan.nextLine().equals("Now That We Don't Talk"))
+                if(scan.nextLine().equals("NOW THAT WE DON'T TALK"))
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
@@ -96,7 +96,7 @@ public class yearBranch
                 {
                     System.out.println("Your next lyrics are:");
                     System.out.println("You grew your hair long, you got new icons, and from the outside");
-                    if(scan.nextLine().equals("Now That We Don't Talk"))
+                    if(scan.nextLine().equals("NOW THAT WE DON'T TALK"))
                     {
                         System.out.println("Congrats! You guessed the song"); 
                     }

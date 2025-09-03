@@ -47,7 +47,7 @@ public class red
         {
             System.out.println("Your first lyrics are:");
             System.out.println("Oh your sweet disposition");
-            if(scan.nextLine().equals("All Too Well"))
+            if(scan.nextLine().equals("ALL TOO WELL"))
             {
                 System.out.println("Congrats! You guessed the song"); 
             }
@@ -55,7 +55,7 @@ public class red
             {
                 System.out.println("Your next lyrics are:");
                 System.out.println("Oh your sweet disposition and my wide eyed gaze");
-                if(scan.nextLine().equals("All Too Well"))
+                if(scan.nextLine().equals("ALL TOO WELL"))
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
@@ -63,7 +63,7 @@ public class red
                 {
                     System.out.println("Your next lyrics are:");
                     System.out.println("Oh your sweet disposition and my wide eyed gaze, we're singin' in the car");
-                    if(scan.nextLine().equals("All Too Well"))
+                    if(scan.nextLine().equals("ALL TOO WELL"))
                     {
                         System.out.println("Congrats! You guessed the song"); 
                     }
@@ -80,7 +80,7 @@ public class red
         {
             System.out.println("Your first lyrics are:");
             System.out.println("No apologies, he'll never");
-            if(scan.nextLine().equals("I Knew You Were Trouble"))
+            if(scan.nextLine().equals("I KNEW YOU WERE TROUBLE"))
             {
                 System.out.println("Congrats! You guessed the song"); 
             }
@@ -88,7 +88,7 @@ public class red
             {
                 System.out.println("Your next lyrics are:");
                 System.out.println("No apologies, he'll never see you cry");
-                if(scan.nextLine().equals("I Knew You Were Trouble"))
+                if(scan.nextLine().equals("I KNEW YOU WERE TROUBLE"))
                 {
                     System.out.println("Congrats! You guessed the song"); 
                 }
@@ -96,7 +96,7 @@ public class red
                 {
                     System.out.println("Your next lyrics are:");
                     System.out.println("No apologies, he'll never see you cry pretend he doesn't know");
-                    if(scan.nextLine().equals("I Knew You Were Trouble"))
+                    if(scan.nextLine().equals("I KNEW YOU WERE TROUBLE"))
                     {
                         System.out.println("Congrats! You guessed the song"); 
                     }
