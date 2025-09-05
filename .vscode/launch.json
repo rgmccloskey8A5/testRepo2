@@ -9,6 +9,13 @@
             "name": "TaylorSwiftGameCopy",
             "request": "launch",
             "mainClass": "TaylorSwiftGameCopy",
+            "projectName": "testRepo2_2c9a3ba5"
+        },
+        {
+            "type": "java",
+            "name": "TaylorSwiftGameCopy",
+            "request": "launch",
+            "mainClass": "TaylorSwiftGameCopy",
             "projectName": "testRepo2_5c07b582"
         },
         {

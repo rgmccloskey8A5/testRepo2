@@ -6,9 +6,9 @@ public class reputation
         
         Scanner scan = new Scanner(System.in);
         System.out.println("You chose reputation");
-        int random = 3; 
 
-        //int random = (int)(Math.random() * 3 + 1);
+
+       int random = (1 + (int)(Math.random()* ((3-1) + 1)));
         if (random == 1) 
         {
             // getaway car
