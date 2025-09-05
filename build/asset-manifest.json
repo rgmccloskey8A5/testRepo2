@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ba13161.css",
+    "main.js": "/static/js/main.aded695c.js",
+    "static/js/453.c83834a0.chunk.js": "/static/js/453.c83834a0.chunk.js",
+    "static/media/Taytex.ttf": "/static/media/Taytex.340553eec06fae034564.ttf",
+    "static/media/taylorlogo.png": "/static/media/taylorlogo.25691b9889986c62f4e7.png",
+    "static/media/Andrea Bellarosa.ttf": "/static/media/Andrea Bellarosa.f040cd7275a29a6f58ad.ttf",
+    "static/media/TheFrightHouseDEMO.otf": "/static/media/TheFrightHouseDEMO.f3fdcbee6818d243923b.otf",
+    "static/media/reputation.jpeg": "/static/media/reputation.b98540783d883eef41a8.jpeg",
+    "index.html": "/index.html",
+    "main.1ba13161.css.map": "/static/css/main.1ba13161.css.map",
+    "main.aded695c.js.map": "/static/js/main.aded695c.js.map",
+    "453.c83834a0.chunk.js.map": "/static/js/453.c83834a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ba13161.css",
+    "static/js/main.aded695c.js"
+  ]
+}
