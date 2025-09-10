@@ -1,3 +1,4 @@
+package com.example.taylorswiftgame;
 import java.util.Scanner;
 public class reputation
 {	
