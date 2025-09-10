@@ -1,5 +1,5 @@
-import java.io.*;
-import java.util.*;
+package com.example.taylorswiftgame;
+import java.util.Scanner;
 
 public class yearBranch
 {
